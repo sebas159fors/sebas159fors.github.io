@@ -1,7 +1,10 @@
 h1{
-    color:aquamarine;
+    color:rgb(16, 3, 206);
     color: brown; 
 }
 nav{
-    background-color: steelblue;
+    background-color: rgb(3, 41, 71); border: 1px solid #3f2de2;
+}
+h2{
+    background-color: rgb(34, 100, 241);
 }
