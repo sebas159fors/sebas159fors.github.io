@@ -1,0 +1,60 @@
+/*
+selector
+{
+    propiedad:valor;
+    propiedad2:valor2;
+}
+*/
+*/*selector de tipo: universal*/
+{
+    color: none;
+}
+nav /*selector de tipo , elemento o etiqueta*/
+{
+    background: steelblue;
+    border: 10px solid black;
+}
+h2
+{
+    color:blue;
+}
+.titulo/*selector de clase*/
+{
+    text-align: center;
+    color: purple;
+}
+.otraclase
+{
+    border: 1px solid black;
+}
+.clasex
+{
+    border:1px solid black;
+}
+#idsec/*selector de id*/
+{
+    border: 1px solid black;
+}
+.😁
+{
+    color: brown;
+    font-size: 20px;
+}
+body
+{
+    background: brown;
+}
+
+h2[class]/*selector de tipo : atributo*/
+{
+    font-size: 6px;
+}
+a[href]
+{
+    color: violet;
+    text-decoration: none;
+}
+[href="./index.html"]
+{
+    color: green;
+}
