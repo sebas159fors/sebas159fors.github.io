@@ -7,7 +7,7 @@ selector
 */
 .clasex
 {
-    border:1px solid black;
+    border:10px solid black;
 }
 nav /*selector de tipo: elemento o etiqueta*/
 {
@@ -25,17 +25,17 @@ h2
 }
 .otraclase
 {
-    border: 1px solid black;
+    border: 10px solid black;
 }
 
 #idsec/*selector de tipo: id*/
 {
-    border: 1px solid black;
+    border: 10px solid black;
 }
 .😁
 {
     color:brown;
-    font-size: 20px;
+    font-size: 50px;
 }
 */*selector de tipo: universal*/
 {
@@ -44,7 +44,7 @@ h2
 
 h2[class]/*selector de tipo: atributo*/
 {
-    font-size: 6px;
+    font-size: 100px;
 }
 [href]
 {
@@ -54,4 +54,17 @@ h2[class]/*selector de tipo: atributo*/
 [href="./index.html"]
 {
     color:green;
+}
+[href^="htttps"]/*valor relativo al inicio*/
+{
+    color: black;
+}
+[href$="..com"]/*valor relativo al final*/
+{
+    color: lightskyblue;
+}
+
+[href*="www"]/*valor relativo al medio*/
+{
+    color: black;
 }
