@@ -5,20 +5,20 @@ selector
     propiedad2:valor2;
 }
 */
-*/*selector de tipo: universal*/
+.clasex
 {
-    color: none;
+    border:1px solid black;
 }
-nav /*selector de tipo , elemento o etiqueta*/
+nav /*selector de tipo: elemento o etiqueta*/
 {
     background: steelblue;
-    border: 10px solid black;
+    border: 10px solid black;    
 }
 h2
 {
     color:blue;
 }
-.titulo/*selector de clase*/
+.titulo/*selector de tipo: clase*/
 {
     text-align: center;
     color: purple;
@@ -27,34 +27,31 @@ h2
 {
     border: 1px solid black;
 }
-.clasex
-{
-    border:1px solid black;
-}
-#idsec/*selector de id*/
+
+#idsec/*selector de tipo: id*/
 {
     border: 1px solid black;
 }
 .😁
 {
-    color: brown;
+    color:brown;
     font-size: 20px;
 }
-body
+*/*selector de tipo: universal*/
 {
-    background: brown;
+     color:red; 
 }
 
-h2[class]/*selector de tipo : atributo*/
+h2[class]/*selector de tipo: atributo*/
 {
     font-size: 6px;
 }
-a[href]
+[href]
 {
-    color: violet;
+    color:violet;
     text-decoration: none;
 }
 [href="./index.html"]
 {
-    color: green;
+    color:green;
 }
